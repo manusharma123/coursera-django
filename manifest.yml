@@ -1,11 +1,12 @@
   applications:
   - name: onlinecourse
     routes:
-      - route: onlinecourse130.eu-gb.cf.appdomain.cloud
+      - route: cs20b012ba.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: onlinecourse130.eu-gb.cf.appdomain.cloud/static
+      - route: cs20b012ba.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
+    
